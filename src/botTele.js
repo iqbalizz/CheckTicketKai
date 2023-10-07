@@ -1,8 +1,8 @@
 import fetch from "node-fetch";
 
 export const sendMessageNotReady = async () => {
-    const botToken = '6595827843:AAGfAW2hamNZ5FUuhKPs__NxN1CGsebB6yE';
-    const chatId = '-4037923871';
+    const botToken = ''; //!ISI BOT TOKEN KAMU
+    const chatId = ''; //!ISI CHAID KAMU
     const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
     const formattedMessage = `
@@ -32,8 +32,8 @@ Ticket belum tersedia dalam satu jam.
 }
 
 export const sendMessageReady = async () => {
-    const botToken = '6595827843:AAGfAW2hamNZ5FUuhKPs__NxN1CGsebB6yE';
-    const chatId = '-4037923871';
+    const botToken = ''; //!ISI BOT TOKEN KAMU
+    const chatId = ''; //!ISI BOT CHATID KMU
     const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
     const formattedMessage = `
